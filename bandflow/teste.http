@@ -1,0 +1,28 @@
+POST http://localhost:8080/musicos
+Content-Type: application/json
+
+{
+  "nome": "Guilherme",
+  "instrumento": "Piano",
+  "telefone": "11999999999"
+}
+###
+
+POST http://localhost:8080/musicos
+Content-Type: application/json
+
+{
+  "nome": "Lucas",
+  "instrumento": "Bateria",
+  "telefone": "11988888888"
+}
+###
+
+PUT http://localhost:8080/musicos/1
+Content-Type: application/json
+
+{
+  "nome": "Guilherme",
+  "instrumento": "Teclado e Piano",
+  "telefone": "11999999999"
+}
